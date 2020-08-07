@@ -1,0 +1,71 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/n"
+    android:paddingLeft="20dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_height="82dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtbookroom"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:layout_marginLeft="120dp"
+        android:text="@string/activity_9_text_adminview" />
+
+
+    <Button
+        android:id="@+id/viewallusers"
+        android:layout_below="@id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="@string/activity_9_button_viewusers"/>
+
+    <Button
+        android:id="@+id/viewallrooms"
+        android:layout_below="@id/viewallusers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_button"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="@string/activity_9_button_viewrooms"/>
+
+    <Button
+        android:id="@+id/viewallbookings"
+        android:layout_below="@id/viewallrooms"
+        android:layout_width="fill_parent"
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="@string/activity_9_button_viewbookings"/>
+
+    <TextView
+        android:id="@+id/footertext"
+        android:layout_below="@id/viewallbookings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:textSize="12dp"
+        android:textColor="#000000"
+        android:text="@string/text_footertext_android_project_design" />
+
+</RelativeLayout>

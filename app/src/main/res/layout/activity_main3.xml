@@ -1,0 +1,89 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logbackground"
+    android:paddingLeft="20dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="15dp"
+        android:layout_width="60dp"
+        android:layout_height="82dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:layout_marginLeft="130dp"
+        android:text="@string/activity_3_text_signup" />
+
+    <EditText
+        android:id="@+id/u_name"
+        android:layout_below="@id/logo"
+        android:inputType="text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_3_text_enterusername"/>
+
+    <EditText
+        android:id="@+id/u_contact"
+        android:layout_below="@id/u_name"
+        android:inputType="phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_3_text_enterusercontact"/>
+
+    <EditText
+        android:id="@+id/u_email"
+        android:layout_below="@id/u_contact"
+        android:inputType="textEmailAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_enteremail"/>
+
+    <EditText
+        android:id="@+id/u_password"
+        android:layout_below="@id/u_email"
+        android:inputType="textPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_enterpassword"/>
+
+    <EditText
+        android:id="@+id/u_confirm_password"
+        android:layout_below="@id/u_password"
+        android:inputType="textPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_3_text_confirmpass"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_below="@id/u_confirm_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custom_button"
+        android:padding="12dp"
+        android:onClick="insertUserData"
+        android:text="@string/activity_3_button_submit"/>
+
+    <TextView
+        android:id="@+id/footertext"
+        android:layout_below="@id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textSize="12dp"
+        android:textColor="#ffff"
+        android:text="@string/text_copyright" />
+
+</RelativeLayout>

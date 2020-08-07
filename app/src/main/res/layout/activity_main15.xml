@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget30"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/about">
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_15_text_about"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_marginLeft="145dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_15_text_heading_faza"
+        android:layout_marginTop="100dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_15_text_faza"
+        android:layout_marginTop="140dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="30dp"/>
+    <ImageView
+        android:id="@+id/widget4"
+        android:layout_width="450px"
+        android:layout_height="252px"
+        android:layout_marginLeft="620px"
+        android:layout_marginTop="373dp"
+        android:src="@drawable/friends"></ImageView>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_15_text_heading_ourteam"
+
+        android:layout_marginTop="343dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_15_text_ourteam"
+        android:layout_marginTop="375dp"
+        android:layout_marginRight="130dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_15_text_aboutline"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/footertext1"
+        android:layout_below="@id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="12dp"
+        android:textColor="#000000"
+        android:text="@string/text_copyright" />
+
+</RelativeLayout>

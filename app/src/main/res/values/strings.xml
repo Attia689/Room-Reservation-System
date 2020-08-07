@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">ProjectVersion1</string>
+
+    <string name="activity_1_button_admin">Admin</string>
+    <string name="activity_1_button_user">User</string>
+    <string name="activity_1_heading_room_reservation">ROOM RESERVATION SYSTEM</string>
+    <string name="activity_1_text_spend_quality">SPEND QUALITY HOLIDAYS WITH US!</string>
+    <string name="activity_1_text_better_to">Better to see something once than to hear about it a thousand times.</string>
+    <string name="text_copyright">© Copyright 2020 Hotel Reservation System ... All copyrights reserved</string>
+
+    <string name="activity_2_text_userlogin">USER LOGIN</string>
+    <string name="text_enteremail">Enter Email</string>
+    <string name="text_enterpassword">Enter Password</string>
+    <string name="button_signin">SIGN IN</string>
+    <string name="activity_2_text_noaccount">Have no account yet?</string>
+    <string name="activity_2_button_createaccount">CREATE AN ACCOUNT</string>
+
+    <string name="activity_3_text_signup">SIGN-UP</string>
+    <string name="activity_3_text_enterusername">User Name</string>
+    <string name="activity_3_text_enterusercontact">User Contact</string>
+    <string name="activity_3_text_confirmpass">Confirm Password</string>
+    <string name="activity_3_button_submit">SUBMIT</string>
+
+    <string name="activity_4_text_welcome">WELCOME TO ROOM RESERVATION SYSTEM</string>
+    <string name="text_footertext_android_project_design">© Android PROJECT DESIGN BY Attia Zafar and Asma</string>
+    <string name="activity_4_button_roombooking">Room Booking</string>
+    <string name="activity_4_button_gallery">Gallery</string>
+    <string name="activity_4_button_services">Services</string>
+    <string name="activity_4_button_feedback">Feedback</string>
+    <string name="activity_4_button_about">About</string>
+    <string name="activity_4_button_contactus">Contact Us</string>
+    <string name="activity_4_button_logout">Logout</string>
+
+    <string name="activity_5_text_bookroom">BOOK YOUR ROOM</string>
+    <string name="activity_5_text_fullname">Full Name</string>
+    <string name="activity_5_text_cnic">CNIC</string>
+    <string name="activity_5_text_email">Email Address</string>
+    <string name="activity_5_text_checkindate">Check-in Date</string>
+    <string name="activity_5_text_checkoutdate">Check-out Date</string>
+    <string name="activity_5_button_booking">Booking</string>
+
+    <string name="activity_6_text_selectroom">SELECT YOUR ROOM</string>
+
+    <string name="activity_7_text_thankyou">Thank you for booking! Your reservation has been made successfully.</string>
+    <string name="activity_7_button_back">Back</string>
+
+    <string name="activity_8_text_adminlogin">ADMIN LOGIN</string>
+
+    <string name="activity_9_text_adminview">ADMIN VIEW</string>
+    <string name="activity_9_button_viewusers">View All Users</string>
+    <string name="activity_9_button_viewrooms">View All Rooms</string>
+    <string name="activity_9_button_viewbookings">View All Bookings</string>
+
+    <string name="activity_13_text_gallery">GALLERY</string>
+    <string name="activity_13_text_cultivate">Cultivate the habit of being grateful for every good things that comes to you, and to give thanks contributed to your advancement. </string>
+
+    <string name="activity_14_text_services">SERVICES</string>
+    <string name="activity_14_text_food1">Our hotel will provide you quality food.</string>
+    <string name="activity_14_text_food2">FOOD</string>
+    <string name="activity_14_text_cleaning1">Our hotel will provide you cleaning service.</string>
+    <string name="activity_14_text_cleaning2">CLEANING</string>
+    <string name="activity_14_text_laundry1">Our hotel will provide you laundry service.</string>
+    <string name="activity_14_text_laundry2">LAUNDRY</string>
+    <string name="activity_14_text_swimming1">Our hotel will provide you swimming service.</string>
+    <string name="activity_14_text_swimming2">SWIMMING</string>
+    <string name="activity_14_text_pickdrop1">Our hotel will give you pick and drop.</string>
+    <string name="activity_14_text_pickdrop2">PICK and DROP</string>
+    <string name="activity_14_text_basketball1">Our hotel will provide you basketball service.</string>
+    <string name="activity_14_text_basketball2">BASKET BALL</string>
+
+    <string name="activity_15_text_about">ABOUT</string>
+    <string name="activity_15_text_heading_faza">FAZA</string>
+    <string name="activity_15_text_faza">FAZA is a Room reservation system works by processing secure online reservation made through app. The data is then passed onto a backend system which can be accessed by hotels to manage bookings. FAZA ( Room reservation system) is a software application that is implemented by hotels to allow guests to create secure online reservations. This system is necessity for today’s accommodation providers, both large and small. Our Hotel is located in Islamabad F-7 Sector. It was established in 2007.</string>
+    <string name="activity_15_text_heading_ourteam">OUR TEAM</string>
+    <string name="activity_15_text_ourteam">Our team includes for members (ATTIA and ASMA). And our management system includes design department and management department.</string>
+    <string name="activity_15_text_aboutline">ATTIA works in design department and ASMA works in management department.</string>
+
+    <string name="activity_16_text_contact">Contact Us</string>
+    <string name="activity_16_text_contactline"> Email us and keep upto date with our latest news</string>
+    <string name="activity_16_text_location"> Location : Islamabad F-7 Sector</string>
+    <string name="activity_16_text_phoneno">Phone no. +92 332 5645166</string>
+    <string name="activity_16_text_email">Email : attiazafar55@gmail.com</string>
+    <string name="activity_16_text_facebook1">Facebook : Attia Zafar,</string>
+    <string name="activity_16_text_facebook2"> Asma</string>
+
+    <string name="activity_17_text_feedback">Feedback</string>
+    <string name="activity_17_text_entermessage">Enter your message</string>
+    <string name="activity_17_text_radiobutton_satisfactory">Satisfactory</string>
+    <string name="activity_17_text_radiobutton_happy">Happy</string>
+    <string name="activity_17_text_radiobutton_good">Good</string>
+    <string name="activity_17_text_radiobutton_notgood">Not Good</string>
+    <string name="activity_17_text_radiobutton_excellent">Excellent</string>
+    <string name="activity_17_button_submit">Submit</string>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,94 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rr"
+    android:paddingLeft="20dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_height="82dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtbookroom"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:layout_marginLeft="110dp"
+        android:text="@string/activity_5_text_bookroom" />
+
+    <EditText
+        android:id="@+id/enterredname"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/activity_5_text_fullname"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/enterredcnic"
+        android:layout_below="@id/enterredname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:hint="@string/activity_5_text_cnic" />
+
+
+    <EditText
+        android:id="@+id/enterredemail"
+        android:layout_below="@id/enterredcnic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:hint="@string/activity_5_text_email" />
+
+    <EditText
+        android:id="@+id/enterredcheckindate"
+        android:layout_below="@id/enterredemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:editable="false"
+        android:hint="@string/activity_5_text_checkindate" />
+
+    <EditText
+        android:id="@+id/enterredcheckoutdate"
+        android:layout_below="@id/enterredcheckindate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:editable="false"
+        android:hint="@string/activity_5_text_checkoutdate" />
+
+    <Button
+        android:id="@+id/btnbooking"
+        android:layout_below="@id/enterredcheckoutdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="@string/activity_5_button_booking"/>
+
+    <TextView
+        android:id="@+id/footertext"
+        android:layout_below="@id/btnbooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textSize="12dp"
+        android:textColor="#ffff"
+        android:text="@string/text_footertext_android_project_design" />
+
+</RelativeLayout>

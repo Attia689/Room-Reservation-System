@@ -1,0 +1,99 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ww">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="82dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="@string/activity_4_text_welcome" />
+
+    <Button
+        android:id="@+id/roombook"
+        android:layout_below="@id/welcometext"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/custom_button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/activity_4_button_roombooking" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_below="@id/roombook"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/activity_4_button_gallery" />
+
+    <Button
+        android:id="@+id/services"
+        android:layout_below="@id/gallery"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:background="@drawable/custom_button"
+        android:layout_height="50dp"
+        android:text="@string/activity_4_button_services" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_below="@id/services"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:background="@drawable/custom_button"
+        android:layout_height="50dp"
+        android:text="@string/activity_4_button_feedback" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_below="@id/feedback"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:background="@drawable/custom_button"
+        android:layout_height="50dp"
+        android:text="@string/activity_4_button_about" />
+
+    <Button
+        android:id="@+id/contactus"
+        android:layout_below="@id/about"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:background="@drawable/custom_button"
+        android:layout_height="50dp"
+        android:text="@string/activity_4_button_contactus" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_below="@id/contactus"
+        android:background="@drawable/custom_button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/activity_4_button_logout" />
+
+    <TextView
+        android:id="@+id/footertext"
+        android:layout_below="@id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="12dp"
+        android:textColor="#ffff"
+        android:text="@string/text_footertext_android_project_design"/>
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget30"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/y">
+
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_13_text_gallery"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_marginLeft="135dp"/>
+
+    <ImageView
+        android:id="@+id/widget4"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/small"></ImageView>
+    <ImageView
+        android:id="@+id/widget5"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="420px"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/small1"></ImageView>
+    <ImageView
+        android:id="@+id/widget6"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="792px"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/small3"></ImageView>
+    <ImageView
+        android:id="@+id/widget7"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/small4"></ImageView>
+    <ImageView
+        android:id="@+id/widget9"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="792px"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/small5"></ImageView>
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/activity_13_text_cultivate"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:layout_marginLeft="228dp"/>
+
+
+    <ImageView
+        android:id="@+id/widget90"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/small6"></ImageView>
+    <ImageView
+        android:id="@+id/widget91"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="792px"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/small7"></ImageView>
+
+
+
+    <ImageView
+        android:id="@+id/widget10"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="345dp"
+        android:src="@drawable/small8"></ImageView>
+
+    <ImageView
+        android:id="@+id/widget12"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="792px"
+        android:layout_marginTop="345dp"
+        android:src="@drawable/small9"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/widget13"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="435dp"
+        android:src="@drawable/small10"></ImageView>
+    <ImageView
+        android:id="@+id/widget14"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="420px"
+        android:layout_marginTop="435dp"
+        android:src="@drawable/small11"></ImageView>
+
+    <ImageView
+        android:id="@+id/widget16"
+        android:layout_width="250px"
+        android:layout_height="252px"
+        android:layout_marginLeft="792px"
+        android:layout_marginTop="435dp"
+        android:src="@drawable/small12"></ImageView>
+
+
+    <TextView
+        android:id="@+id/footertext1"
+        android:layout_below="@id/widget16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="12dp"
+        android:textColor="#000000"
+        android:text="@string/text_footertext_android_project_design" />
+
+
+</RelativeLayout>

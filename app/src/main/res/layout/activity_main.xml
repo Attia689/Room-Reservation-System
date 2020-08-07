@@ -1,0 +1,79 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/homebackground"
+    android:paddingLeft="20dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="30dp"
+        android:layout_width="60dp"
+        android:layout_height="82dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/admin_login"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="140dp"
+        android:text="@string/activity_1_button_admin" />
+
+    <Button
+        android:id="@+id/user_login"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="240dp"
+        android:text="@string/activity_1_button_user" />
+
+    <TextView
+        android:id="@+id/titletext"
+        android:layout_below="@id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:padding="12dp"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+        android:text="@string/activity_1_heading_room_reservation" />
+
+    <TextView
+        android:id="@+id/infotext1"
+        android:layout_below="@id/titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="18dp"
+        android:textColor="#ffff"
+        android:text="@string/activity_1_text_spend_quality" />
+
+    <TextView
+        android:id="@+id/infotext2"
+        android:layout_below="@id/infotext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:padding="12dp"
+        android:textSize="15dp"
+        android:textColor="#ffff"
+        android:text="@string/activity_1_text_better_to" />
+
+    <TextView
+        android:id="@+id/footertext"
+        android:layout_below="@id/infotext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="12dp"
+        android:textColor="#ffff"
+        android:text="@string/text_copyright" />
+</RelativeLayout>

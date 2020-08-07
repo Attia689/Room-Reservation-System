@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget30"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/g">
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_17_text_feedback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_marginLeft="135dp"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/activity_17_text_entermessage"
+        android:layout_below="@id/textView92"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/satisfactory"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/message"
+        android:src="@drawable/satisfactory" />
+
+    <ImageView
+        android:id="@+id/happy"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/satisfactory"
+        android:src="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/good"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/happy"
+        android:src="@drawable/good" />
+
+    <ImageView
+        android:id="@+id/notgood"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/good"
+        android:src="@drawable/notgood" />
+
+    <ImageView
+        android:id="@+id/excellent"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/notgood"
+        android:src="@drawable/excellent" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio_satisfactory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginLeft="60dp"
+            android:text="@string/activity_17_text_radiobutton_satisfactory" />
+
+        <RadioButton
+            android:id="@+id/radio_happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/activity_17_text_radiobutton_happy" />
+
+        <RadioButton
+            android:id="@+id/radio_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/activity_17_text_radiobutton_good" />
+
+        <RadioButton
+            android:id="@+id/radio_verygood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/activity_17_text_radiobutton_notgood" />
+
+        <RadioButton
+            android:id="@+id/radio_excellent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/activity_17_text_radiobutton_excellent" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitfeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_below="@id/excellent"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:text="@string/activity_17_button_submit" />
+    <TextView
+        android:id="@+id/footertext1"
+        android:layout_below="@id/submitfeedback"
+        android:layout_marginBottom="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="12dp"
+        android:textColor="#000000"
+        android:text="@string/text_copyright" />
+
+</RelativeLayout>
